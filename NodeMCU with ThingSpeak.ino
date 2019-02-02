@@ -8,11 +8,11 @@
 unsigned long startMillis;
 unsigned long currentMillis = 0;
 
-unsigned long myChannelNumber = 691407;
-const char* myWriteAPIKey = "KZDUTSEEIRB0NT5K";
+unsigned long myChannelNumber = channel_number;
+const char* myWriteAPIKey = "your_api_key";
 
-const char* ssid = "admin";
-const char* pass = "99105279";
+const char* ssid = "SSID";
+const char* pass = "PASS";
 const char* server = "api.thingspeak.com";
 
 int ledState = 1;
